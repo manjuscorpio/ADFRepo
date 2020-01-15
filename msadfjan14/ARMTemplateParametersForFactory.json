@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "msadfjan14"
+		},
+		"SourceBlobStorage_connectionString": {
+			"value": ""
+		},
+		"TargetBlobStorage_connectionString": {
+			"value": ""
+		},
+		"BlobCreatedTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/20e7aedf-fb57-4215-9a30-e716912175f9/resourceGroups/msresgroup/providers/Microsoft.Storage/storageAccounts/mstroragecommon"
+		}
+	}
+}
