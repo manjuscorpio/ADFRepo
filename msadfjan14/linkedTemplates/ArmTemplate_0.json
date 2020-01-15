@@ -250,7 +250,7 @@
 				],
 				"type": "BlobEventsTrigger",
 				"typeProperties": {
-					"blobPathBeginsWith": "/nov302019/blobs/",
+					"blobPathBeginsWith": "/nov302019/blobs/annual",
 					"ignoreEmptyBlobs": true,
 					"scope": "[parameters('BlobCreatedTrigger_properties_typeProperties_scope')]",
 					"events": [
