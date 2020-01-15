@@ -5,6 +5,9 @@
 			"referenceName": "SourceBlobStorage",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Source"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
