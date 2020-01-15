@@ -1,5 +1,5 @@
 {
-	"name": "AnnualSurvey",
+	"name": "SRC_AnnualSurvey",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SourceBlobStorage",
