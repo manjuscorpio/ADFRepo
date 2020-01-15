@@ -1,0 +1,24 @@
+{
+	"name": "BlobCreatedTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/nov302019/blobs/annual",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/20e7aedf-fb57-4215-9a30-e716912175f9/resourceGroups/msresgroup/providers/Microsoft.Storage/storageAccounts/mstroragecommon",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
